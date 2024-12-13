@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Kontakt() { 
     return (
-<div id="kontakt" className="relative text-white w-full">
+<div id="kontakt" className="relative text-white w-full mt-8 md:mt-0">
     {/* Image Container */}
     <div className="z-0 overflow-hidden">
         <motion.div 
@@ -33,8 +33,11 @@ export default function Kontakt() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
                 >
-                    <div className="font-semibold text-xl md:text-2xl lg:text-3xl text-white absolute top-12">
-                        Kontakt
+                    <div className="font-semibold text-xl md:text-2xl lg:text-3xl text-white text-center 
+                    relative bottom-20 md:bottom-36 lg:bottom-52 xl:bottom-72 backdrop-blur-sm">
+                        <p className="mb-2">Kontakt</p>
+                        <p className="mb-2">bewegt.sein@posteo.de</p>
+                        <p>+49 1578 9179 946</p>
                     </div>
                 </motion.div> 
                 <motion.div
@@ -42,7 +45,7 @@ export default function Kontakt() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.2 }}
                 >
-                    <div className="text-lg text-white absolute bottom-12">
+                    <div className="text-lg text-white relative top-14 md:top-36 lg:top-52 xl:top-72 cursor-pointer hover:text-contrast backdrop-blur-sm">
                         <Link href="/impressum">Impressum, Datenschutz, Kontakt</Link>
                     </div>
                 </motion.div>

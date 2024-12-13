@@ -53,7 +53,7 @@ export default function Hero() {
               <Link
                 href="#aktuell"
                 className="inline-block px-6 py-3 md:px-7 md:py-4 lg:px-10 lg:py-6 text-lg font-semibold text-white hover:text-contrast rounded-full 
-                bg-red hover:bg-white border border-gold transition duration-300 hover:scale-110"
+                bg-gradient-to-tr from-red to-darkbg hover:bg-white border border-gold transition duration-300 hover:scale-110"
               >
                 Aktuelle Kurse
               </Link>
