@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 
 export default function About() {
-
+// bg-gradient-to-br from-[#704427]  to-darkbg
     return (
         <div id="about" className='bg-gradient-to-br from-[#704427] to-darkbg'>
             <div className="w-full relative pb-24 pt-18 md:pt-24 md:pb-28 flex flex-col md:flex-row max-w-6xl mx-auto">

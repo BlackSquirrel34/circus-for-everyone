@@ -29,7 +29,7 @@ export default function Aktuell() {
             Informationen zu fortlaufendenden Kursen oder Workshops:
         </h1>
         <p className='mb-3 text-lg lg:text-xl pt-2'>
-            Derzeit habe ich keine fortlaufenden Kurse im Angebot
+            hallo jetzt gibt es einen workshop!
         </p>
 
 

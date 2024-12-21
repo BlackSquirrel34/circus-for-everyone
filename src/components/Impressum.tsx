@@ -10,13 +10,13 @@ export default function Impressum() {
 
         <strong className='py-3'>Angaben gem&auml;&szlig; &sect;5 TMG</strong>
         <p>Sofie Lorenz<br />
-        Psychologin (B.Sc.) und Zirkustrainerin (In.Zirque&reg; Berlin)<br />
+        B. Sc. Psychologie und Zirkustrainerin (In.Zirque&reg; Berlin)<br />
         Letzengasse 5<br />
         96052 Bamberg<br />
         </p>
 
         <strong className='pt-6 pb-3'>Kontakt</strong>
-        <p>Telefon: 015789179946<br />
+        <p>
         E-Mail: bewegt.sein@posteo.de<br />
         Letzengasse 5<br />
         96052 Bamberg<br />
