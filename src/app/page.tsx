@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar links={navLinks.home}/>
       <Hero />
       <Text />
-      <Aktuell aktuellws={aktuellws}/>
+      <Aktuell />
       <Workshops />
       <Kontakt />
     </div>
